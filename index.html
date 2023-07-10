@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/conteudo.css">
     <link rel="stylesheet" href="css/menu_esquerdo.css">
+    <link rel="stylesheet" href="css/menu_direito.css">
     <title>Editor de Texto Online</title>
 </head>
 <body>
@@ -24,14 +26,31 @@
                 <li class="conteudo__menu__esquerdo__lista__1"><img src="assets/Icon.png" alt="Icone"><a class="conteudo__menu__esquerdo__lista__link" href="index.html">Editor de código</a></li>
                 <li class="conteudo__menu__esquerdo__lista__2"><img src="assets/icon_users.png" alt="Icone"><a class="conteudo__menu__esquerdo__lista__link" href="#">Comunidade</a></li>
             </ul>
-        
-        <nav class="menu">
-            <ul class="menu__lista">
-                <li class="menu__lista__titulo">Seu Projeto</li>
-                <li><input class="conteudo__menu-lateral-direito__titulo__nome" type="text" placeholder="Nome do seu projeto"></li>
-                <li><input class="conteudo__menu-lateral-direito__titulo__descricao" type="text" placeholder="Descrição do seu projeto"></li>
-            </ul>
         </nav>
+      
+        <section>
+            <nav class="conteudo__menu__direito">
+                <ul class="conteudo__menu__direito__lista">
+                    <li class="conteudo__menu__direito__lista__titulo">Seu Projeto</li>
+                    <li><input class="conteudo__menu__direito__lista__nome" type="text" placeholder="Nome do seu projeto"></li>
+                    <li><input class="conteudo__menu__direito__lista__descricao" type="text" placeholder="Descrição do seu projeto"></li>
+                </ul>
+            </nav>
+
+            <nav class="conteudo__menu__direito">
+                <ul class="conteudo__menu__direito__lista">
+                    <li class="conteudo__menu__direito__lista__titulo">Personalização</li>
+                    <li>
+                        <select class="conteudo__menu__direito__lista__personalizacao">
+                            <option>JavaScript</option>
+                            <option>HTML</option>
+                            <option>CSS</option>
+                        </select>
+                    </li>
+                    <li><input class="conteudo__menu__direito__lista__cor" type="text" placeholder="Descrição do seu projeto"></li>
+                </ul>
+            </nav>
+        </section>
     </main>
 </body>
 </html>
