@@ -1,4 +1,4 @@
-# Editor de Texto Online para Trechos de Código
+# Editor de Texto Online para Alura Challenges#1
 
 Este é um projeto de um editor de texto online desenvolvido para atender às necessidades de um produtor de conteúdo de programação. O editor permite postar trechos de código em redes sociais de forma simples e com destaque de sintaxe.
 
