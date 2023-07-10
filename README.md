@@ -1,4 +1,5 @@
 # Editor de Texto Online para Alura Challenges#1
+<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EMDESENVOLVIMENTO&color=RED&style=for-the-badge"/></p>
 
 Este é um projeto de um editor de texto online desenvolvido para atender às necessidades de um produtor de conteúdo de programação. O editor permite postar trechos de código em redes sociais de forma simples e com destaque de sintaxe.
 
