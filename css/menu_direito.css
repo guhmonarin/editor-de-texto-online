@@ -36,11 +36,14 @@
     font-weight: 400;
     border: none;
     box-sizing: border-box;
+    color: #FFFFFF;
 }
 
 .conteudo__menu__direito__lista__nome::placeholder {
     color: #FFFFFF29;
 }
+
+
 
 .conteudo__menu__direito__lista__descricao {   
     height: 80px;
@@ -52,6 +55,7 @@
     width: 100%;
     box-sizing: border-box;
     border: none;
+    color: #FFFFFF;
 }
 
 .conteudo__menu__direito__lista__descricao::placeholder {
@@ -98,4 +102,14 @@
     font-weight: 400;
     background-color: #5081FB;
     border: none;
+}
+
+.conteudo__menu__direito__lista__salvar:hover {
+    background-color: #7BA4FC;
+}
+
+@media (max-width:768px) {
+    .conteudo__direito {
+        width: 100%;
+}
 }
