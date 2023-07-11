@@ -1,0 +1,32 @@
+.conteudo__editor {
+    width: 752px;
+    height: 366px;
+    margin: 16px 0;
+    border: 32px solid #6BD1FF;
+    border-radius: 8px;
+}
+
+.conteudo__editor__memo {
+    background-color: #141414;
+    width: 90%;
+    height: 80%;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: top;
+    padding: 5%;
+}
+
+.conteudo__editor__botao {
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #5081FB14;
+    margin: 70px 50px 0 0;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+

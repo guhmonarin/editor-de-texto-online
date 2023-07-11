@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/conteudo.css">
     <link rel="stylesheet" href="css/menu_esquerdo.css">
     <link rel="stylesheet" href="css/menu_direito.css">
+    <link rel="stylesheet" href="css/editor.css">
     <title>Editor de Texto Online</title>
 </head>
 <body>
@@ -27,7 +28,10 @@
                 <li class="conteudo__menu__esquerdo__lista__2"><img src="assets/icon_users.png" alt="Icone"><a class="conteudo__menu__esquerdo__lista__link" href="#">Comunidade</a></li>
             </ul>
         </nav>
-      
+        <section class="conteudo__editor">
+            <textarea class="conteudo__editor__memo"></textarea>
+            <button class="conteudo__editor__botao">Visualizar com o highlight</li>
+        </section>
         <section>
             <nav class="conteudo__menu__direito">
                 <ul class="conteudo__menu__direito__lista">
@@ -47,7 +51,8 @@
                             <option>CSS</option>
                         </select>
                     </li>
-                    <li><input class="conteudo__menu__direito__lista__cor" type="text" placeholder="Descrição do seu projeto"></li>
+                    <li class="conteudo__menu__direito__lista__cor"><button class="conteudo__menu__direito__lista__cor__botao"></li>
+                    <li><button class="conteudo__menu__direito__lista__salvar">Salvar projeto</li>
                 </ul>
             </nav>
         </section>
