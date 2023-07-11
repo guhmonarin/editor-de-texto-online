@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: space-between;
     height: 56px;
-    margin: 32px;
-    gap: 32px;
+    margin: 32px 0;
 }
 
 .cabecalho__logo {
@@ -13,6 +12,7 @@
 
 .cabecalho__logo__foto {
     width: 60%;
+    margin: 0 0 0 32px;
 }
 
 .cabecalho__busca {
@@ -20,7 +20,7 @@
     height: 56px;
     background-color: #FFFFFF29;
     border-radius: 8px;
-    padding: 0 1em;
+    padding-left: 1em;
     font-size: 16px;
     border: none;
     line-height: 20px;
@@ -35,7 +35,7 @@
 .cabecalho__nome {
     display: flex;
     align-items: center;
-    width: calc(25% - 1em);
+    width: 25%;
     justify-content: center;
 
 }
