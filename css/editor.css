@@ -1,15 +1,21 @@
 .conteudo__editor {
-    width: 752px;
-    height: 366px;
-    margin: 16px 0;
-    border: 32px solid #6BD1FF;
-    border-radius: 8px;
+
+}
+
+.conteudo__editor__box {
+    overflow: auto;
+    max-height: 80%;
+    width: calc(100% - 64px);
+    height: 334px;
+    background-color: #7BA4FC;
+    border-radius: 24px;
+    padding: 32px;
 }
 
 .conteudo__editor__memo {
     background-color: #141414;
     width: 90%;
-    height: 80%;
+    height: 85%;
     border-radius: 8px;
     color: #FFFFFF;
     font-size: 14px;

@@ -13,7 +13,9 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img class="cabecalho__logo" src="assets/Logo.png" alt="Logo da plataforma">
+        <div class="cabecalho__logo">
+            <img class="cabecalho__logo__foto" src="assets/Logo.png" alt="Logo da plataforma">
+        </div>
         <input  class="cabecalho__busca" type="text" name="termo_de_busca" placeholder="Busque por algo" >
         <div class="cabecalho__nome">
             <img class="cabecalho__nome__foto" src="assets/foto.png" alt="Foto de perfil">
@@ -29,10 +31,12 @@
             </ul>
         </nav>
         <section class="conteudo__editor">
-            <textarea class="conteudo__editor__memo"></textarea>
+            <div class="conteudo__editor__box">
+                <textarea class="conteudo__editor__memo"></textarea>
+            </div>
             <button class="conteudo__editor__botao">Visualizar com o highlight</li>
         </section>
-        <section>
+        <section class="conteudo__direito">
             <nav class="conteudo__menu__direito">
                 <ul class="conteudo__menu__direito__lista">
                     <li class="conteudo__menu__direito__lista__titulo">Seu Projeto</li>
