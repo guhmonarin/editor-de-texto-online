@@ -1,3 +1,11 @@
+#editor{
+    color: white;
+}
+
+#comunidade {
+    color: white;
+}
+
 .conteudo__menu__esquerdo {
     width: 25%;
     padding: 0 2em;
@@ -24,7 +32,6 @@
 .conteudo__menu__esquerdo__lista__2 {
     display: flex;
     align-items: center;
-    color: #FFFFFF29;
 }
 
 .conteudo__menu__esquerdo__lista li {
@@ -35,14 +42,15 @@
     padding: 0 0 0 16px;
     font-size: 1em;
     font-weight: 400;
-}
-
-.conteudo__menu__esquerdo__lista a:visited {
     color: #FFFFFF29;
 }
 
-.conteudo__menu__esquerdo__lista a:link {
+.conteudo__menu__esquerdo__lista a:hover {
     color: white;
+}
+
+.conteudo__menu__esquerdo__lista a:focus {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .conteudo__menu__esquerdo__lista__link {

@@ -45,7 +45,10 @@
     font-weight: 400;
     color: #FFFFFF;
     padding-right: 1em;
+}
 
+.cabecalho__nome__texto:hover {
+    color: #FFFFFF29;
 }
 
 .cabecalho__nome__foto {
