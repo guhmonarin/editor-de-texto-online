@@ -2,11 +2,7 @@ const linguagem = document.querySelector('.conteudo__menu__direito__lista__perso
 const areaDoCodigo = document.querySelector('.conteudo__editor__box');
 const botao = document.querySelector('.conteudo__editor__botao');
 
-const botaoCor = document.querySelector('.conteudo__menu__direito__lista__cor__botao');
-const fundoCor = document.querySelector('.conteudo__editor__box');
 
-const menuHamburguer = document.getElementById('menu-hamburguer');
-const menuHamburguerNav = document.getElementById('menu-hamburguer-nav');
 
 function aplicaHighlight() {
     const codigo = areaDoCodigo.innerText;
@@ -27,6 +23,11 @@ function selecionaCor() {
 
 botaoCor.addEventListener('input', selecionaCor);
 
-menuHamburguer.addEventListener('click', function() {
-    menuHamburguerNav.classList.toggle('open');
-  });
+function menuShow() {
+    let menuMobile = document.querySelector('.menu__hambuguer_nav');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+    } else {
+        menuMobile.classList.add('open');
+    }
+}
