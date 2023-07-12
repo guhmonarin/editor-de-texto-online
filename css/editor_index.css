@@ -3,7 +3,6 @@
 }
 
 .conteudo__editor__box {
-    overflow: auto;
     max-height: 80%;
     width: (100%-32px);
     height: 334px;
@@ -20,6 +19,9 @@
     width: calc(100% - 4em);
     height: calc(334px - 4em);
     padding: 2em;
+    display: block;
+    white-space: pre-wrap;
+    overflow: auto;
 }
 
 .conteudo__editor__botao {
