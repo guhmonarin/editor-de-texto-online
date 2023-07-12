@@ -31,88 +31,129 @@
                 <li class="conteudo__menu__esquerdo__lista__2"><img src="assets/icon_users.png" alt="Icone"><a class="conteudo__menu__esquerdo__lista__link" id="comunidade" href="comunidade.html">Comunidade</a></li>
             </ul>
         </nav>
-        <section class="conteudo__editor">
-            <div class="conteudo__editor__box_1">
-                <pre><code class="conteudo__editor__memo hljs language-JavaScript" contenteditable="true">const buttonMobile = document.querySelector('.button-mobile')
+        <div class="conteudo__principal">
+            <section class="conteudo__editor">
+                <div class="conteudo__editor__box" style="background-color: red;" >
+                    <pre><code class="conteudo__editor__memo hljs language-JavaScript" contenteditable="true">const buttonMobile = document.querySelector('.button-mobile')
 
-                    function toggleMenu(event) {
-                    if (event.type === 'touchstart')event.preventDefault();
-                    
-                    const menuNav = document.querySelector('.menu-nav')
-                    menuNav.classList.toggle('active');
-                    
-                    const active = menuNav.classList.contains('active')
-                    event.currentTarget.setAttribute('aria-expended', active)
-                    if (active) {
-                        event.currentTarget.setAttribute('aria-label', 'Fermer Menu')
-                    } else {
-                        event.currentTarget.setAttribute('aria-label', 'Ouvrir Menu')
-                       }
-                    }</pre></code>
-            </div>
+                        function toggleMenu(event) {
+                        if (event.type === 'touchstart')event.preventDefault();
+                        
+                        const menuNav = document.querySelector('.menu-nav')
+                        menuNav.classList.toggle('active');
+                        
+                        const active = menuNav.classList.contains('active')
+                        event.currentTarget.setAttribute('aria-expended', active)
+                        if (active) {
+                            event.currentTarget.setAttribute('aria-label', 'Fermer Menu')
+                        } else {
+                            event.currentTarget.setAttribute('aria-label', 'Ouvrir Menu')
+                        }
+                        }</pre></code>
+                </div>
 
-            <div class="conteudo__container">
-                <h2 class="conteudo__container__titulo">Meu projeto em JavaScript</h2>
-                <p class="conteudo__container__descricao">Meu projeto que eu fiz especialmente para você</p>
-                <div class="conteudo__container__itens">
-                    <div class="conteudo__container__itens__icones">
-                        <div class="conteudo__container__itens__icones__comentario"> 
-                            <img src="assets/Vector.png">
-                            <p>3</p>
+                <div class="conteudo__container">
+                    <h2 class="conteudo__container__titulo">Meu projeto em JavaScript</h2>
+                    <p class="conteudo__container__descricao">Meu projeto que eu fiz especialmente para você</p>
+                    <div class="conteudo__container__itens">
+                        <div class="conteudo__container__itens__icones">
+                            <div class="conteudo__container__itens__icones__comentario"> 
+                                <img src="assets/Vector.png">
+                                <p>3</p>
+                            </div>
+                            <div class="conteudo__container__itens__icones__curtida">
+                                <img src="assets/coracao.png">
+                                <p>3</p>
+                            </div>
                         </div>
-                        <div class="conteudo__container__itens__icones__curtida">
-                            <img src="assets/coracao.png">
-                            <p>3</p>
+                        <div class="conteudo__container__itens__nome">
+                            <img class="cabecalho__nome__foto" src="assets/foto.png" alt="Foto de perfil">
+                            <a class="cabecalho__nome__texto" href="#">Gustavo Monarin</a>
                         </div>
-                    </div>
-                    <div class="conteudo__container__itens__nome">
-                        <img class="cabecalho__nome__foto" src="assets/foto.png" alt="Foto de perfil">
-                        <a class="cabecalho__nome__texto" href="#">Gustavo Monarin</a>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="conteudo__editor">   
+            <section class="conteudo__editor">   
 
-            <div class="conteudo__editor__box_2">
-                <pre><code class="conteudo__editor__memo hljs language-CSS" contenteditable="true">@media screen and (max-width: 400px) {
-                    .head-of-page {
-                        margin: 0px;
-                        display:initial;
-                    }
-                    .logo-head-of-page {
-                        width: 60%;
-                    }
-                    .all-projects {
-                        display: block;
-                        max-width: 100%;
-                    }</pre></code>
-            </div>
+                <div class="conteudo__editor__box" style="background-color: orange;">
+                    <pre><code class="conteudo__editor__memo hljs language-CSS" contenteditable="true">@media screen and (max-width: 400px) {
+                        .head-of-page {
+                            margin: 0px;
+                            display:initial;
+                        }
+                        .logo-head-of-page {
+                            width: 60%;
+                        }
+                        .all-projects {
+                            display: block;
+                            max-width: 100%;
+                        }</pre></code>
+                </div>
 
-            <div class="conteudo__container">
-                <h2 class="conteudo__container__titulo">Meu projeto em CSS</h2>
-                <p class="conteudo__container__descricao">Meu projeto em css que eu desenvolvi no dia a dia, para deixar o</p>
-                <div class="conteudo__container__itens">
-                    <div class="conteudo__container__itens__icones">
-                        <div class="conteudo__container__itens__icones__comentario"> 
-                            <img src="assets/Vector.png">
-                            <p>3</p>
+                <div class="conteudo__container">
+                    <h2 class="conteudo__container__titulo">Meu projeto em CSS</h2>
+                    <p class="conteudo__container__descricao">Meu projeto em css que eu desenvolvi no dia a dia, para deixar o</p>
+                    <div class="conteudo__container__itens">
+                        <div class="conteudo__container__itens__icones">
+                            <div class="conteudo__container__itens__icones__comentario"> 
+                                <img src="assets/Vector.png">
+                                <p>3</p>
+                            </div>
+                            <div class="conteudo__container__itens__icones__curtida">
+                                <img src="assets/coracao.png">
+                                <p>3</p>
+                            </div>
                         </div>
-                        <div class="conteudo__container__itens__icones__curtida">
-                            <img src="assets/coracao.png">
-                            <p>3</p>
+                        <div class="conteudo__container__itens__nome">
+                            <img class="cabecalho__nome__foto" src="assets/foto.png" alt="Foto de perfil">
+                            <a class="cabecalho__nome__texto" href="#">Gustavo Monarin</a>
                         </div>
-                    </div>
-                    <div class="conteudo__container__itens__nome">
-                        <img class="cabecalho__nome__foto" src="assets/foto.png" alt="Foto de perfil">
-                        <a class="cabecalho__nome__texto" href="#">Gustavo Monarin</a>
                     </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
 
+            <section class="conteudo__editor">   
+
+                <div class="conteudo__editor__box" style="background-color: green;">
+                    <pre><code class="conteudo__editor__memo hljs language-CSS" contenteditable="true">@media screen and (max-width: 400px) {
+                        .head-of-page {
+                            margin: 0px;
+                            display:initial;
+                        }
+                        .logo-head-of-page {
+                            width: 60%;
+                        }
+                        .all-projects {
+                            display: block;
+                            max-width: 100%;
+                        }</pre></code>
+                </div>
+
+                <div class="conteudo__container">
+                    <h2 class="conteudo__container__titulo">Meu projeto em CSS</h2>
+                    <p class="conteudo__container__descricao">Meu projeto em css que eu desenvolvi no dia a dia, para deixar o</p>
+                    <div class="conteudo__container__itens">
+                        <div class="conteudo__container__itens__icones">
+                            <div class="conteudo__container__itens__icones__comentario"> 
+                                <img src="assets/Vector.png">
+                                <p>3</p>
+                            </div>
+                            <div class="conteudo__container__itens__icones__curtida">
+                                <img src="assets/coracao.png">
+                                <p>3</p>
+                            </div>
+                        </div>
+                        <div class="conteudo__container__itens__nome">
+                            <img class="cabecalho__nome__foto" src="assets/foto.png" alt="Foto de perfil">
+                            <a class="cabecalho__nome__texto" href="#">Gustavo Monarin</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.0/build/highlight.min.js" crossorigin="anonymous"></script>
     <script>hljs.highlightAll();</script>

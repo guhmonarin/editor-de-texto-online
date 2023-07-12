@@ -1,19 +1,10 @@
 .conteudo__editor {
-    width: 50%;
+    width: 48%;
 }
 
-.conteudo__editor__box_1 {
+.conteudo__editor__box {
     max-height: 80%;
     height: 334px;
-    background-color: #7BA4FC;
-    border-radius: 8px;
-    padding: 32px;
-}
-
-.conteudo__editor__box_2 {
-    max-height: 80%;
-    height: 334px;
-    background-color:orange;
     border-radius: 8px;
     padding: 32px;
 }
@@ -36,7 +27,9 @@
     border-radius: 0 0 8px 8px;
     padding: 32px;
     color:white;
-
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .conteudo__container__descricao {
@@ -48,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 64px;
+    flex-grow: 1;
 }
 
 .conteudo__container__itens__icones {
