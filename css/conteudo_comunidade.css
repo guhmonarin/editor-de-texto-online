@@ -10,3 +10,9 @@
     flex-wrap: wrap;
     gap: 25px 2%;
 }
+
+@media (max-width: 1000px) {
+    .conteudo__principal {
+        flex-direction: column;
+    }
+}

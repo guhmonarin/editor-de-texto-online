@@ -40,7 +40,7 @@
     background-color: #5081FB29;
 }
 
-@media (max-width:768px) {
+@media (max-width:1000px) {
     .conteudo__editor {
         width: calc(100% - 64px);
 }

@@ -108,7 +108,7 @@
     background-color: #7BA4FC;
 }
 
-@media (max-width:768px) {
+@media (max-width:1000px) {
     .conteudo__direito {
         width: 100%;
 }
